@@ -1,886 +1,497 @@
-﻿Log file open, 11/22/16 16:20:52
-LogInit:Display: Running engine for game: Blood_Sport
-LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1402689131) SRandInit(-1402689131).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.077309
-LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
-LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
-LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
-LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
-LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
-LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
-LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
-LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
-LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
-LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
-LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
-LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
-LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
-LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
-LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
-LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
-LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
-LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
-LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
-LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
-LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
-LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
-LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
-LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
-LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
-LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
-LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
-LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
-LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
-LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
-LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
-LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
-LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
-LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
-LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
-LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
-LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
-LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
-LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
-LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
-LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
-LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
-LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
-LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
-LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
-LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
-LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
-LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
-LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
-LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
-LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
-LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
-LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
-LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
-LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
-LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
-LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
-LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
-LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
-LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
-LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
-LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
-LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
-LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
-LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
-LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
-LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
-LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
-LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
-LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
-LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
-LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
-LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
-LogInit: Using libcurl 7.47.1
-LogInit:  - built for x86_64-pc-win32
-LogInit:  - supports SSL with OpenSSL/1.0.2g
-LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
-LogInit:  - other features:
-LogInit:      CURL_VERSION_SSL
-LogInit:      CURL_VERSION_LIBZ
-LogInit:      CURL_VERSION_IPV6
-LogInit:      CURL_VERSION_ASYNCHDNS
-LogInit:      CURL_VERSION_LARGEFILE
-LogInit:      CURL_VERSION_IDN
-LogInit:  CurlRequestOptions (configurable via config and command line):
-LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.14-CL-3195953
-LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
-LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
-LogInit: Net CL: 3195953
-LogDevObjectVersion: Number of dev versions registered: 13
-LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
-LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
-LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
-LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
-LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
-LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
-LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
-LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
-LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
-LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
-LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
-LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
-LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
-LogInit: Compiled with Visual C++: 19.00.23026.00
-LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
-LogInit: Installed Engine Build: 1
-LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogInit: Object subsystem initialized
-[2016.11.22-16.20.52:746][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.22-16.20.52:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.11.22-16.20.52:755][  0]LogInit: Computer: HERROSAMA
-[2016.11.22-16.20.52:755][  0]LogInit: User: HerroSama
-[2016.11.22-16.20.52:755][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.11.22-16.20.52:755][  0]LogInit: High frequency timer resolution =3.328123 MHz
-[2016.11.22-16.20.52:756][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.11.22-16.20.52:756][  0]LogMemory: Platform Memory Stats for Windows
-[2016.11.22-16.20.52:756][  0]LogMemory: Process Physical Memory: 264.69 MB used, 264.69 MB peak
-[2016.11.22-16.20.52:756][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
-[2016.11.22-16.20.52:756][  0]LogMemory: Physical Memory: 5043.13 MB used,  11269.39 MB free, 16312.52 MB total
-[2016.11.22-16.20.52:756][  0]LogMemory: Virtual Memory: 676.38 MB used,  11269.39 MB free, 134217728.00 MB total
-[2016.11.22-16.20.52:779][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2016.11.22-16.20.53:313][  0]LogD3D11RHI: D3D11 adapters:
-[2016.11.22-16.20.53:773][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2016.11.22-16.20.53:773][  0]LogD3D11RHI:       4060/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.11.22-16.20.53:774][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.11.22-16.20.53:774][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.11.22-16.20.53:774][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.11.22-16.20.53:778][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.11.22-16.20.53:778][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2016.11.22-16.20.53:778][  0]LogWindows: EnumDisplayDevices:
-[2016.11.22-16.20.53:778][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2016.11.22-16.20.53:778][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.11.22-16.20.53:778][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.11.22-16.20.53:779][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.11.22-16.20.53:779][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.11.22-16.20.53:779][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2016.11.22-16.20.53:779][  0]LogD3D11RHI:   Driver Version: 375.86 (internal:21.21.13.7586, unified:375.86)
-[2016.11.22-16.20.53:779][  0]LogD3D11RHI:      Driver Date: 11-10-2016
-[2016.11.22-16.20.53:779][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.11.22-16.20.54:192][  0]LogD3D11RHI: Async texture creation enabled
-[2016.11.22-16.20.54:219][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.11.22-16.20.54:220][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Intermediate/Shaders/WorkingDirectory/8472/).
-[2016.11.22-16.20.54:220][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Herro-Sama/AppData/Local/Temp/UnrealShaderWorkingDir/735DCB3449D3168C724288BAC9457C56/'.
-[2016.11.22-16.20.54:220][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.11.22-16.20.55:065][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.11.22-16.20.55:112][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2016.11.22-16.20.55:156][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2016.11.22-16.20.55:200][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2016.11.22-16.20.55:246][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2016.11.22-16.20.55:293][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.11.22-16.20.55:339][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.11.22-16.20.55:383][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.11.22-16.20.55:421][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.11.22-16.20.55:463][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.11.22-16.20.55:508][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.11.22-16.20.55:555][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.11.22-16.20.55:604][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.11.22-16.20.55:648][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.11.22-16.20.55:691][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.11.22-16.20.55:781][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.11.22-16.20.55:781][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.11.22-16.20.55:811][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.11.22-16.20.55:883][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.11.22-16.20.55:912][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.11.22-16.20.55:955][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.11.22-16.20.56:005][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.11.22-16.20.56:051][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.11.22-16.20.56:218][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.11.22-16.20.56:218][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.11.22-16.20.56:610][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache: Loaded boot cache 0.05s 63MB C:/Users/Herro-Sama/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Herro-Sama/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.11.22-16.20.56:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.11.22-16.20.56:671][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.11.22-16.20.56:683][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Herro-Sama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.11.22-16.20.56:842][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.22-16.20.56:845][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.11.22-16.20.57:019][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2016.11.22-16.20.57:053][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2016.11.22-16.20.57:092][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2016.11.22-16.20.57:092][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2016.11.22-16.20.57:092][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.11.22-16.20.57:723][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: blood_sport, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2026624699
-[2016.11.22-16.20.57:773][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2016.11.22-16.20.57:815][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022150 seconds
-[2016.11.22-16.20.57:819][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2016.11.22-16.20.57:820][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2016.11.22-16.20.57:820][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.11.22-16.20.57:873][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.11.22-16.20.58:453][  0]LogSlate: Using Freetype 2.6.0
-[2016.11.22-16.20.58:453][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.22-16.20.58:453][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.22-16.20.59:104][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.11.22-16.20.59:159][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.11.22-16.20.59:422][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.11.22-16.20.59:745][  0]SourceControl: Info Source control is disabled
-[2016.11.22-16.20.59:779][  0]SourceControl: Info Source control is disabled
-[2016.11.22-16.20.59:819][  0]SourceControl: Info Source control is disabled
-[2016.11.22-16.20.59:858][  0]SourceControl: Info Source control is disabled
-[2016.11.22-16.21.00:902][  0]LogEngine: Initializing Engine...
-[2016.11.22-16.21.00:902][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.11.22-16.21.01:183][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.11.22-16.21.01:195][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.11.22-16.21.01:214][  0]LogInit: FAudioDevice initialized.
-[2016.11.22-16.21.01:237][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Herro-Sama/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.11.22-16.21.01:244][  0]LogInit: Texture streaming: Enabled
-[2016.11.22-16.21.01:398][  0]LogInit: Transaction tracking system initialized
-[2016.11.22-16.21.01:693][  0]BlueprintLog: New page: Editor Load
-[2016.11.22-16.21.02:500][  0]LocalizationService: Info Localization service is disabled
-[2016.11.22-16.21.03:080][  0]LogConsoleResponse:Display: 
-[2016.11.22-16.21.03:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/' took 0.01s
-[2016.11.22-16.21.03:191][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.11.22-16.21.03:191][  0]LogCook:Display: Mobile HDR setting 1
-[2016.11.22-16.21.04:027][  0]SourceControl: Info Source control is disabled
-[2016.11.22-16.21.04:115][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/StarterContent.upack)
-[2016.11.22-16.21.04:639][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2016.11.22-16.21.04:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2016.11.22-16.21.04:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2016.11.22-16.21.04:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2016.11.22-16.21.04:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2016.11.22-16.21.04:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2016.11.22-16.21.04:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2016.11.22-16.21.04:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2016.11.22-16.21.04:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2016.11.22-16.21.04:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2016.11.22-16.21.04:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2016.11.22-16.21.04:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2016.11.22-16.21.04:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Collapse01.uasset"
-[2016.11.22-16.21.05:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Collapse02.uasset"
-[2016.11.22-16.21.05:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2016.11.22-16.21.05:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Explosion01.uasset"
-[2016.11.22-16.21.05:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Explosion02.uasset"
-[2016.11.22-16.21.05:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2016.11.22-16.21.05:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Fire01.uasset"
-[2016.11.22-16.21.05:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2016.11.22-16.21.05:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2016.11.22-16.21.05:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2016.11.22-16.21.05:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Light01.uasset"
-[2016.11.22-16.21.05:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2016.11.22-16.21.05:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Light02.uasset"
-[2016.11.22-16.21.05:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2016.11.22-16.21.05:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Smoke01.uasset"
-[2016.11.22-16.21.05:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2016.11.22-16.21.05:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2016.11.22-16.21.05:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2016.11.22-16.21.05:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2016.11.22-16.21.05:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2016.11.22-16.21.05:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2016.11.22-16.21.05:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2016.11.22-16.21.05:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Steam01.uasset"
-[2016.11.22-16.21.05:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2016.11.22-16.21.05:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2016.11.22-16.21.05:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2016.11.22-16.21.05:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2016.11.22-16.21.05:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2016.11.22-16.21.05:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2016.11.22-16.21.05:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2016.11.22-16.21.05:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2016.11.22-16.21.05:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2016.11.22-16.21.05:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2016.11.22-16.21.05:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2016.11.22-16.21.05:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2016.11.22-16.21.05:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2016.11.22-16.21.05:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2016.11.22-16.21.05:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2016.11.22-16.21.05:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2016.11.22-16.21.05:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2016.11.22-16.21.10:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2016.11.22-16.21.10:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2016.11.22-16.21.10:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/Minimal_Default.umap"
-[2016.11.22-16.21.10:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/StarterMap.umap"
-[2016.11.22-16.21.10:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2016.11.22-16.21.10:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2016.11.22-16.21.10:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2016.11.22-16.21.10:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2016.11.22-16.21.10:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2016.11.22-16.21.10:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2016.11.22-16.21.10:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2016.11.22-16.21.10:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2016.11.22-16.21.10:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2016.11.22-16.21.10:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2016.11.22-16.21.10:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2016.11.22-16.21.10:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2016.11.22-16.21.10:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2016.11.22-16.21.10:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2016.11.22-16.21.10:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2016.11.22-16.21.10:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2016.11.22-16.21.10:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2016.11.22-16.21.10:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Glass.uasset"
-[2016.11.22-16.21.10:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2016.11.22-16.21.10:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2016.11.22-16.21.10:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2016.11.22-16.21.10:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2016.11.22-16.21.10:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2016.11.22-16.21.10:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2016.11.22-16.21.10:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2016.11.22-16.21.10:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2016.11.22-16.21.10:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2016.11.22-16.21.10:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2016.11.22-16.21.10:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2016.11.22-16.21.10:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2016.11.22-16.21.10:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2016.11.22-16.21.10:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2016.11.22-16.21.10:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2016.11.22-16.21.10:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2016.11.22-16.21.10:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2016.11.22-16.21.10:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2016.11.22-16.21.10:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2016.11.22-16.21.10:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2016.11.22-16.21.10:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2016.11.22-16.21.10:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2016.11.22-16.21.10:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2016.11.22-16.21.10:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2016.11.22-16.21.10:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2016.11.22-16.21.10:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2016.11.22-16.21.10:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Explosion.uasset"
-[2016.11.22-16.21.10:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Fire.uasset"
-[2016.11.22-16.21.10:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Smoke.uasset"
-[2016.11.22-16.21.10:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Sparks.uasset"
-[2016.11.22-16.21.10:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2016.11.22-16.21.10:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2016.11.22-16.21.10:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2016.11.22-16.21.10:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2016.11.22-16.21.10:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2016.11.22-16.21.10:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2016.11.22-16.21.10:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2016.11.22-16.21.10:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2016.11.22-16.21.10:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2016.11.22-16.21.10:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2016.11.22-16.21.10:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2016.11.22-16.21.10:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/MaterialSphere.uasset"
-[2016.11.22-16.21.11:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Bush.uasset"
-[2016.11.22-16.21.11:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Chair.uasset"
-[2016.11.22-16.21.11:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2016.11.22-16.21.11:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Couch.uasset"
-[2016.11.22-16.21.11:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Door.uasset"
-[2016.11.22-16.21.11:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2016.11.22-16.21.11:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2016.11.22-16.21.11:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2016.11.22-16.21.11:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2016.11.22-16.21.11:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2016.11.22-16.21.11:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2016.11.22-16.21.11:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2016.11.22-16.21.11:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Rock.uasset"
-[2016.11.22-16.21.11:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Shelf.uasset"
-[2016.11.22-16.21.11:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Stairs.uasset"
-[2016.11.22-16.21.11:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_Statue.uasset"
-[2016.11.22-16.21.11:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_TableRound.uasset"
-[2016.11.22-16.21.11:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2016.11.22-16.21.11:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2016.11.22-16.21.11:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2016.11.22-16.21.11:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2016.11.22-16.21.11:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2016.11.22-16.21.11:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2016.11.22-16.21.11:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2016.11.22-16.21.11:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2016.11.22-16.21.11:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2016.11.22-16.21.11:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2016.11.22-16.21.11:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2016.11.22-16.21.11:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2016.11.22-16.21.11:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2016.11.22-16.21.11:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2016.11.22-16.21.11:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2016.11.22-16.21.11:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2016.11.22-16.21.11:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2016.11.22-16.21.11:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2016.11.22-16.21.11:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2016.11.22-16.21.11:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2016.11.22-16.21.11:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2016.11.22-16.21.11:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2016.11.22-16.21.11:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2016.11.22-16.21.11:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2016.11.22-16.21.11:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2016.11.22-16.21.12:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2016.11.22-16.21.12:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2016.11.22-16.21.12:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2016.11.22-16.21.12:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2016.11.22-16.21.12:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2016.11.22-16.21.12:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2016.11.22-16.21.12:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2016.11.22-16.21.12:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2016.11.22-16.21.12:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2016.11.22-16.21.12:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2016.11.22-16.21.12:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2016.11.22-16.21.12:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2016.11.22-16.21.12:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2016.11.22-16.21.12:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2016.11.22-16.21.12:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2016.11.22-16.21.12:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2016.11.22-16.21.12:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2016.11.22-16.21.12:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2016.11.22-16.21.13:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2016.11.22-16.21.13:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2016.11.22-16.21.13:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2016.11.22-16.21.13:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2016.11.22-16.21.13:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2016.11.22-16.21.13:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2016.11.22-16.21.13:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2016.11.22-16.21.13:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2016.11.22-16.21.13:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2016.11.22-16.21.13:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2016.11.22-16.21.13:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2016.11.22-16.21.13:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2016.11.22-16.21.13:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2016.11.22-16.21.13:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2016.11.22-16.21.13:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2016.11.22-16.21.14:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2016.11.22-16.21.14:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2016.11.22-16.21.14:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2016.11.22-16.21.14:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2016.11.22-16.21.14:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2016.11.22-16.21.14:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2016.11.22-16.21.14:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2016.11.22-16.21.14:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2016.11.22-16.21.14:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2016.11.22-16.21.14:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2016.11.22-16.21.14:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2016.11.22-16.21.14:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2016.11.22-16.21.14:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2016.11.22-16.21.15:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Door_M.uasset"
-[2016.11.22-16.21.15:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Door_N.uasset"
-[2016.11.22-16.21.15:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2016.11.22-16.21.15:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2016.11.22-16.21.15:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2016.11.22-16.21.15:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2016.11.22-16.21.15:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2016.11.22-16.21.15:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2016.11.22-16.21.15:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2016.11.22-16.21.15:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2016.11.22-16.21.15:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2016.11.22-16.21.15:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2016.11.22-16.21.15:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2016.11.22-16.21.16:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2016.11.22-16.21.16:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2016.11.22-16.21.16:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2016.11.22-16.21.16:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2016.11.22-16.21.16:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2016.11.22-16.21.16:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2016.11.22-16.21.16:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2016.11.22-16.21.16:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2016.11.22-16.21.16:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2016.11.22-16.21.16:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2016.11.22-16.21.16:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2016.11.22-16.21.16:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2016.11.22-16.21.17:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2016.11.22-16.21.17:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2016.11.22-16.21.17:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2016.11.22-16.21.17:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2016.11.22-16.21.17:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2016.11.22-16.21.17:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2016.11.22-16.21.17:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2016.11.22-16.21.17:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2016.11.22-16.21.18:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2016.11.22-16.21.18:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2016.11.22-16.21.18:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2016.11.22-16.21.18:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2016.11.22-16.21.18:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2016.11.22-16.21.18:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2016.11.22-16.21.18:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2016.11.22-16.21.18:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2016.11.22-16.21.18:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2016.11.22-16.21.18:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2016.11.22-16.21.19:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2016.11.22-16.21.19:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2016.11.22-16.21.19:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2016.11.22-16.21.19:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2016.11.22-16.21.19:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2016.11.22-16.21.19:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2016.11.22-16.21.19:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2016.11.22-16.21.19:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2016.11.22-16.21.19:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2016.11.22-16.21.19:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2016.11.22-16.21.19:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Water_M.uasset"
-[2016.11.22-16.21.19:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Water_N.uasset"
-[2016.11.22-16.21.19:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2016.11.22-16.21.19:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2016.11.22-16.21.19:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2016.11.22-16.21.20:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2016.11.22-16.21.20:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2016.11.22-16.21.20:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2016.11.22-16.21.20:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2016.11.22-16.21.20:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2016.11.22-16.21.20:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2016.11.22-16.21.20:727][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
-[2016.11.22-16.21.21:701][  0]LogSavePackage: Save=16.61ms
-[2016.11.22-16.21.21:701][  0]LogSavePackage: Moving '../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Saved/Floor_400x4005FE89AE54FA914F3DCFC31BFB94CC440.tmp' to '../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2016.11.22-16.21.21:707][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2016.11.22-16.21.21:707][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2016.11.22-16.21.21:709][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.11.22-16.21.21:709][  0]LightingResults: New page: Lighting Build
-[2016.11.22-16.21.21:745][  0]MapCheck: New page: Map Check
-[2016.11.22-16.21.21:745][  0]LightingResults: New page: Lighting Build
-[2016.11.22-16.21.22:098][  0]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
-[2016.11.22-16.21.24:260][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
-[2016.11.22-16.21.26:236][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
-[2016.11.22-16.21.26:717][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
-[2016.11.22-16.21.28:782][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
-[2016.11.22-16.21.29:288][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
-[2016.11.22-16.21.29:758][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
-[2016.11.22-16.21.29:879][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
-[2016.11.22-16.21.30:555][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
-[2016.11.22-16.21.31:227][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
-[2016.11.22-16.21.31:607][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2016.11.22-16.21.31:652][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2016.11.22-16.21.31:660][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2016.11.22-16.21.31:685][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2016.11.22-16.21.31:692][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2016.11.22-16.21.31:698][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2016.11.22-16.21.31:919][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2016.11.22-16.21.31:920][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2016.11.22-16.21.32:088][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
-[2016.11.22-16.21.32:094][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.11.22-16.21.32:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.11.22-16.21.32:140][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.537ms to complete.
-[2016.11.22-16.21.32:140][  0]LogFileHelpers: Loading map 'Minimal_Default' took 10.432
-[2016.11.22-16.21.32:653][  0]LogCollectionManager: Loaded 0 collections in 0.001941 seconds
-[2016.11.22-16.21.32:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Saved/Collections/' took 0.01s
-[2016.11.22-16.21.32:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/Developers/HerroSama/Collections/' took 0.01s
-[2016.11.22-16.21.32:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/Collections/' took 0.01s
-[2016.11.22-16.21.32:893][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2016.11.22-16.21.32:909][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2190 classes and 428 folders.
-[2016.11.22-16.21.32:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.11.22-16.21.32:976][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.016 s
-[2016.11.22-16.21.32:978][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
-[2016.11.22-16.21.33:063][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.11.22-16.21.35:712][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.11.22-16.21.35:762][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.11.22-16.21.36:185][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.11.22-16.21.36:694][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.11.22-16.21.36:694][  0]LogLoad: (Engine Initialization) Total time: 45.59 seconds
-[2016.11.22-16.21.36:694][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
-[2016.11.22-16.21.36:694][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.11.22-16.21.36:694][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.11.22-16.21.37:033][  0]LogOcInput: OculusInput pre-init called
-[2016.11.22-16.21.37:205][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.11.22-16.21.37:665][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
-[2016.11.22-16.21.37:720][  1]LogAssetRegistry: Asset discovery search completed in 39.9681 seconds
-[2016.11.22-16.21.37:720][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.11.22-16.21.37:720][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
-[2016.11.22-16.24.36:085][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.11.22-16.24.38:378][906]Cmd: DELETE
-[2016.11.22-16.24.38:378][906]Cmd: ACTOR DELETE
-[2016.11.22-16.24.38:384][906]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.38:484][906]LogEditorActor: Deleted 1 Actors (0.101 secs)
-[2016.11.22-16.24.39:038][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.11.22-16.24.39:373][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.11.22-16.24.39:571][ 27]Cmd: DELETE
-[2016.11.22-16.24.39:571][ 27]Cmd: ACTOR DELETE
-[2016.11.22-16.24.39:571][ 27]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.39:579][ 27]LogEditorActor: Deleted 1 Actors (0.008 secs)
-[2016.11.22-16.24.40:019][ 80]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
-[2016.11.22-16.24.40:250][ 94]Cmd: DELETE
-[2016.11.22-16.24.40:250][ 94]Cmd: ACTOR DELETE
-[2016.11.22-16.24.40:250][ 94]LogEditorActor: Deleted Actor: AmbientSound
-[2016.11.22-16.24.40:258][ 94]LogEditorActor: Deleted 1 Actors (0.008 secs)
-[2016.11.22-16.24.40:616][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2016.11.22-16.24.40:670][139]Cmd: DELETE
-[2016.11.22-16.24.40:670][139]Cmd: ACTOR DELETE
-[2016.11.22-16.24.40:671][139]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.40:678][139]LogEditorActor: Deleted 1 Actors (0.007 secs)
-[2016.11.22-16.24.40:961][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2016.11.22-16.24.40:994][174]Cmd: DELETE
-[2016.11.22-16.24.40:994][174]Cmd: ACTOR DELETE
-[2016.11.22-16.24.40:994][174]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.41:001][174]LogEditorActor: Deleted 1 Actors (0.007 secs)
-[2016.11.22-16.24.41:308][211]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2016.11.22-16.24.41:383][215]Cmd: DELETE
-[2016.11.22-16.24.41:383][215]Cmd: ACTOR DELETE
-[2016.11.22-16.24.41:384][215]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2016.11.22-16.24.41:391][215]LogEditorActor: Deleted 1 Actors (0.007 secs)
-[2016.11.22-16.24.47:489][945]LogEditorActor: Deleted Actor: PlayerStart
-[2016.11.22-16.24.47:489][945]LogEditorActor: Deleted Actor: DirectionalLight
-[2016.11.22-16.24.47:490][945]LogEditorActor: Deleted Actor: SkyLight
-[2016.11.22-16.24.47:490][945]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2016.11.22-16.24.47:491][945]LogEditorActor: Deleted Actor: AtmosphericFog
-[2016.11.22-16.24.47:491][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.47:492][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.22-16.24.47:492][945]LogEditorActor: Deleted Actor: PostProcessVolume
-[2016.11.22-16.24.47:492][945]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2016.11.22-16.24.47:499][945]LogEditorActor: Deleted 9 Actors (0.010 secs)
-[2016.11.22-16.24.50:574][314]LogEditorViewport: Clicking Background
-[2016.11.22-16.24.52:612][539]LogSavePackage: Save=117.44ms
-[2016.11.22-16.24.52:612][539]LogSavePackage: Moving '../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Saved/Minimal_Default21F58108495B20AA6A05578B9AA4641E.tmp' to '../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/Minimal_Default.umap'
-[2016.11.22-16.24.52:616][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/StarterContent/Maps/Minimal_Default.umap
-[2016.11.22-16.24.55:216][840]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.11.22-16.24.55:388][841]Cmd: QUIT_EDITOR
-[2016.11.22-16.24.55:443][841]LogExit: Preparing to exit.
-[2016.11.22-16.24.56:344][841]LogDirectoryWatcher: A directory notification for 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/' was aborted.
-[2016.11.22-16.24.56:359][841]LogExit: Editor shut down
-[2016.11.22-16.24.56:360][841]LogExit: Transaction tracking system shut down
-[2016.11.22-16.24.56:403][841]LogObj: Freed 0b from 0 cluster array pools.
-[2016.11.22-16.24.56:403][841]LogExit: Object subsystem successfully closed.
-[2016.11.22-16.24.56:414][841]LogD3D11RHI: Shutdown
-[2016.11.22-16.24.56:414][841]LogD3D11RHI: CleanupD3DDevice
-[2016.11.22-16.24.56:473][841]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.11.22-16.24.56:486][841]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2016.11.22-16.24.56:486][841]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2279BC7E-48F4-0A24-F850-778C61B88C7F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=61d38d7e4da9e0af82e6888ceb7b5cfe%7C8ba3c72d7d774076a4434ad3465eeecd%7Ccd2e46ee-45cc-4a7c-9fe7-de784ee39a4d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2016.11.22-16.24.56:505][841]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2016.11.22-16.24.56:505][841]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2016.11.22-16.24.56:505][841]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2016.11.22-16.24.56:505][841]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2016.11.22-16.24.56:506][841]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2016.11.22-16.24.56:506][841]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
-[2016.11.22-16.24.56:508][841]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2016.11.22-16.24.56:508][841]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2016.11.22-16.24.56:508][841]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2016.11.22-16.24.56:509][841]LogDirectoryWatcher: A directory notification for 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/Collections/' was aborted.
-[2016.11.22-16.24.56:509][841]LogDirectoryWatcher: A directory notification for 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/Developers/HerroSama/Collections/' was aborted.
-[2016.11.22-16.24.56:509][841]LogDirectoryWatcher: A directory notification for 'C:/Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Saved/Collections/' was aborted.
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module Media (215)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2016.11.22-16.24.56:509][841]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2016.11.22-16.24.56:896][841]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2016.11.22-16.24.56:897][841]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2016.11.22-16.24.56:939][841]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2016.11.22-16.24.57:143][841]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2016.11.22-16.24.57:144][841]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2016.11.22-16.24.57:144][841]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2016.11.22-16.24.57:144][841]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2016.11.22-16.24.57:145][841]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2016.11.22-16.24.57:145][841]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2016.11.22-16.24.57:246][841]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2016.11.22-16.24.57:346][841]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module Core (75)
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2016.11.22-16.24.57:348][841]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2016.11.22-16.24.57:348][841]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Herro-Sama/Documents/Coursework/BloodSport/Blood_Sport/Content/' was aborted.
-[2016.11.22-16.24.57:348][841]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2016.11.22-16.24.57:348][841]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2016.11.22-16.24.57:505][841]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2016.11.22-16.24.57:510][841]LogDerivedDataCache: Shutdown
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.11.22-16.24.57:510][841]LogOnline:Display: Unloading online subsystem: NULL
-[2016.11.22-16.24.57:510][841]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.11.22-16.24.57:511][841]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.11.22-16.24.57:512][841]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.11.22-16.24.57:513][841]LogExit: Exiting.
-[2016.11.22-16.24.57:522][841]Log file closed, 11/22/16 16:24:57
+﻿[2016.11.23-16.50.06:246][  0]Log file open, 11/23/16 16:50:06
+[2016.11.23-16.50.06:246][  0]LogInit:Display: Running engine for game: Blood_Sport
+[2016.11.23-16.50.06:246][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.23-16.50.06:246][  0]LogInit:Display: RandInit(-1505623543) SRandInit(-1505623541).
+[2016.11.23-16.50.06:246][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.11.23-16.50.06:246][  0]LogStats: Stats thread started at 0.760926
+[2016.11.23-16.50.06:246][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.23-16.50.06:246][  0]LogInit: API Version: 2758231
+[2016.11.23-16.50.06:246][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.11.23-16.50.06:246][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.23-16.50.06:246][  0]LogInit: Build Configuration: Development
+[2016.11.23-16.50.06:246][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.23-16.50.06:246][  0]LogInit: Command line:  
+[2016.11.23-16.50.06:246][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.23-16.50.06:246][  0]LogInit: Rocket: 1
+[2016.11.23-16.50.06:310][  0]LogInit: Using libcurl 7.41.0
+[2016.11.23-16.50.06:310][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.23-16.50.06:310][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.23-16.50.06:310][  0]LogInit:  - other features:
+[2016.11.23-16.50.06:310][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.23-16.50.06:310][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.23-16.50.06:310][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.23-16.50.06:310][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.23-16.50.06:310][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.23-16.50.06:310][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.23-16.50.06:310][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.23-16.50.06:310][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.23-16.50.06:310][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.23-16.50.06:310][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.23-16.50.06:391][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.23-16.50.06:399][  0]LogInit: Object subsystem initialized
+[2016.11.23-16.50.06:474][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.23-16.50.06:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.23-16.50.06:599][  0]LogInit: Computer: DESKTOP-T7QNFRT
+[2016.11.23-16.50.06:599][  0]LogInit: User: James
+[2016.11.23-16.50.06:599][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.11.23-16.50.06:599][  0]LogInit: High frequency timer resolution =3.903996 MHz
+[2016.11.23-16.50.06:599][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.23-16.50.06:599][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.23-16.50.06:599][  0]LogMemory: Process Physical Memory: 58.36 MB used, 58.36 MB peak
+[2016.11.23-16.50.06:599][  0]LogMemory: Process Virtual Memory: 55.86 MB used, 55.86 MB peak
+[2016.11.23-16.50.06:599][  0]LogMemory: Physical Memory: 3227.65 MB used, 8133.83 MB total
+[2016.11.23-16.50.06:599][  0]LogMemory: Virtual Memory: 382.59 MB used, 134217728.00 MB total
+[2016.11.23-16.50.07:670][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.11.23-16.50.08:936][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 390 Series (Feature Level 11_0)
+[2016.11.23-16.50.08:936][  0]LogD3D11RHI: Adapter has 8169MB of dedicated video memory, 0MB of dedicated system memory, and 4066MB of shared system memory, 1 output[s]
+[2016.11.23-16.50.08:938][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.23-16.50.08:938][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4066MB of shared system memory, 0 output[s]
+[2016.11.23-16.50.08:938][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.23-16.50.08:942][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.23-16.50.08:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.23-16.50.08:967][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.11.23-16.50.09:045][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../BloodSport/Blood_Sport/Intermediate/Shaders/WorkingDirectory/2288/).
+[2016.11.23-16.50.09:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/TEMP/UnrealShaderWorkingDir/568538C4429DC2C5F5265CB25C25F15E/'.
+[2016.11.23-16.50.09:046][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.23-16.50.19:172][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.23-16.50.19:186][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.23-16.50.19:207][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.23-16.50.19:218][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.23-16.50.19:230][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.23-16.50.19:240][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.23-16.50.19:245][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.23-16.50.19:249][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.23-16.50.19:254][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.23-16.50.19:259][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.23-16.50.19:264][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.23-16.50.19:271][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.23-16.50.19:271][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.23-16.50.19:273][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.23-16.50.19:361][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.23-16.50.19:364][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.23-16.50.19:368][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.23-16.50.19:409][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.23-16.50.19:409][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.23-16.50.20:095][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.23-16.50.20:673][  0]LogDerivedDataCache: Loaded boot cache 0.58s 44MB C:/Users/James/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.23-16.50.20:674][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/James/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.23-16.50.20:674][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../BloodSport/Blood_Sport/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.23-16.50.20:674][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.23-16.50.20:674][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../BloodSport/Blood_Sport/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.23-16.50.20:674][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.23-16.50.20:849][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.23-16.50.20:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.23-16.50.29:443][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.23-16.50.29:503][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.23-16.50.30:267][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.23-16.50.30:267][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.23-16.50.33:805][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.23-16.51.30:540][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.23-16.51.36:944][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.11.23-16.51.41:798][  0]SourceControl: Info Source control is disabled
+[2016.11.23-16.51.42:335][  0]SourceControl: Info Source control is disabled
+[2016.11.23-16.51.42:916][  0]SourceControl: Info Source control is disabled
+[2016.11.23-16.51.43:043][  0]SourceControl: Info Source control is disabled
+[2016.11.23-16.51.48:561][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.23-16.51.48:562][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.11.23-16.51.49:826][  0]LogEngine: Initializing Engine...
+[2016.11.23-16.51.49:924][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.23-16.51.50:147][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.23-16.51.53:595][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.23-16.51.54:809][  0]LogInit: XAudio2 using 'Speakers (Turtle Beach Shadow)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.23-16.51.54:910][  0]LogInit: FAudioDevice initialized.
+[2016.11.23-16.51.55:298][  0]LogDerivedDataCache: Saved boot cache 0.39s 44MB C:/Users/James/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.23-16.51.55:308][  0]LogInit: Texture streaming: Enabled
+[2016.11.23-16.51.56:041][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.23-16.51.56:041][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.23-16.51.56:041][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 09bddae043a558aabc6271bcf52463d9|1b9bcc5a10c040d0908b8d4313eb3591|e5f335d7-5110-4408-814c-f11c35859ffe
+[2016.11.23-16.51.56:041][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.23-16.51.57:663][  0]LogInit: Transaction tracking system initialized
+[2016.11.23-16.51.57:858][  0]BlueprintLog: New page: Editor Load
+[2016.11.23-16.51.59:170][  0]LocalizationService: Info Localization service is disabled
+[2016.11.23-16.52.01:362][  0]LogConsoleResponse:Display: 
+[2016.11.23-16.52.07:023][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.23-16.52.07:868][  0]LogFileCache: Scanning file cache for directory 'C:/BloodSport/Blood_Sport/Content/' took 0.12s
+[2016.11.23-16.52.07:868][  0]SourceControl: Info Source control is disabled
+[2016.11.23-16.52.07:869][  0]Cmd: MAP LOAD FILE="../../../../../../BloodSport/Blood_Sport/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.23-16.53.12:620][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.23-16.53.12:622][  0]LightingResults: New page: Lighting Build
+[2016.11.23-16.53.12:626][  0]MapCheck: New page: Map Check
+[2016.11.23-16.53.12:626][  0]LightingResults: New page: Lighting Build
+[2016.11.23-16.53.12:717][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A20B246AC0
+[2016.11.23-16.53.12:720][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.23-16.53.12:722][  0]LoadErrors: New page: New Map
+[2016.11.23-16.53.12:775][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.23-16.53.13:113][  0]LogCollectionManager: Loaded 0 collections in 0.001850 seconds
+[2016.11.23-16.53.13:182][  0]LogFileCache: Scanning file cache for directory 'C:/BloodSport/Blood_Sport/Saved/Collections/' took 0.01s
+[2016.11.23-16.53.13:182][  0]LogFileCache: Scanning file cache for directory 'C:/BloodSport/Blood_Sport/Content/Developers/James/Collections/' took 0.01s
+[2016.11.23-16.53.13:182][  0]LogFileCache: Scanning file cache for directory 'C:/BloodSport/Blood_Sport/Content/Collections/' took 0.01s
+[2016.11.23-16.53.13:182][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.11.23-16.53.13:187][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1893 classes and 338 folders.
+[2016.11.23-16.53.13:193][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.23-16.53.16:318][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.11.23-16.53.16:333][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.11.23-16.53.16:512][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.23-16.53.16:581][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.23-16.53.16:604][  0]LogLoad: Full Startup: 194.46 seconds (BP compile: 0.37 seconds)
+[2016.11.23-16.53.16:615][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.23-16.53.17:278][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.23-16.53.17:480][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.11.23-16.53.18:111][  3]LogAssetRegistry: Asset discovery search completed in 101.1776 seconds
+[2016.11.23-16.53.18:111][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.23-16.53.18:111][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.11.23-16.54.17:180][779]LogActorFactory: Actor Factory created Cube
+[2016.11.23-16.54.17:511][811]LogActorFactory: Actor Factory created Cube
+[2016.11.23-16.54.18:761][912]Cmd: DELETE
+[2016.11.23-16.54.18:761][912]Cmd: ACTOR DELETE
+[2016.11.23-16.54.18:762][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.23-16.54.18:771][912]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.23-16.54.20:229][ 64]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.11.23-16.55.10:955][111]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.11.23-16.55.13:147][372]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.11.23-16.55.42:450][875]LogActorFactory: Actor Factory created Cube
+[2016.11.23-16.55.42:873][925]LogActorFactory: Actor Factory created Cube
+[2016.11.23-16.56.07:332][849]LogEditorViewport: Clicking Background
+[2016.11.23-16.56.10:487][227]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.11.23-16.57.35:083][342]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.11.23-16.57.35:515][393]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.11.23-16.59.10:132][665]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.11.23-16.59.51:526][600]MapCheck: New page: Map Check
+[2016.11.23-16.59.51:536][600]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.23-16.59.51:536][600]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.23-16.59.51:643][600]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.11.23-16.59.51:643][600]LogStats:          STAT_HLOD_BuildClusters - 35.746 ms
+[2016.11.23-16.59.51:696][600]LightingResults: New page: Lighting Build - 23 Nov 2016 16:59:51
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.23-17.00.02:669][600]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.23-17.00.04:157][600]LogEditorBuildUtils: Build time 0:00:12
+[2016.11.23-17.00.04:168][600]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.11.23-17.00.04:452][600]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.11.23-17.00.09:999][611]Job is a success!
+[2016.11.23-17.00.10:700][612]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.11.23-17.00.10:730][612]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.23-17.00.10:731][612]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.23-17.00.10:735][612]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.11.23-17.00.11:188][612]Lightmass on DESKTOP-T7QNFRT: 2.42 sec total, 303 ms importing, 0 ms setup, 271 ms photons, 1.42 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 9.82 sec total, 52 ms processing.
+[2016.11.23-17.00.11:206][612]LogStaticLightingSystem: Illumination: 19.1 sec (85 ms encoding lightmaps)
+[2016.11.23-17.00.11:206][612]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.11.23-17.00.11:206][612]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2016.11.23-17.00.11:704][613]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.23-17.00.11:705][613]MapCheck: New page: Untitled_1 - 23 Nov 2016 17:00:11
+[2016.11.23-17.00.14:301][613]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,596.194ms to complete.
+[2016.11.23-17.02.28:499][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.23-17.02.28:512][387]PIE: New page: PIE session: Untitled_1 (23 Nov 2016 17:02:28)
+[2016.11.23-17.02.28:536][387]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.11.23-17.02.28:672][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136148s)
+[2016.11.23-17.02.28:674][387]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.23-17.02.28:674][387]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2016.11.23-17.02.28:674][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.138167s)
+[2016.11.23-17.02.28:731][387]LogInit: XAudio2 using 'Speakers (Turtle Beach Shadow)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.23-17.02.28:747][387]LogInit: FAudioDevice initialized.
+[2016.11.23-17.02.29:035][387]LogWorld: Game class is 'GameMode'
+[2016.11.23-17.02.29:146][387]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2016.11.23-17.02.29
+[2016.11.23-17.02.29:147][387]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.23-17.02.29:147][387]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.23-17.02.29:148][387]LogWorld: Bringing up level for play took: 0.003265
+[2016.11.23-17.02.29:472][387]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.27
+[2016.11.23-17.02.31:904][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A2354756C0
+[2016.11.23-17.02.33:557][797]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.11.23-17.02.34:564][912]Cmd: DELETE
+[2016.11.23-17.02.34:564][912]Cmd: ACTOR DELETE
+[2016.11.23-17.02.34:564][912]LogEditorActor: Deleted Actor: CameraActor
+[2016.11.23-17.02.34:597][912]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2016.11.23-17.02.48:765][595]Cmd: TRANSACTION UNDO
+[2016.11.23-17.02.48:765][595]LogEditorTransaction: Undo Move Actors
+[2016.11.23-17.03.23:916][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../BloodSport/Blood_Sport/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.11.23-17.03.23:970][762]LogSavePackage: Save=45.851994ms
+[2016.11.23-17.03.23:970][762]LogSavePackage: Moving '../../../../../../BloodSport/Blood_Sport/Saved/Untitled_1_Auto169582A5747910794DD13FD8007AC1CF4.tmp' to '../../../../../../BloodSport/Blood_Sport/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2016.11.23-17.03.23:972][762]LogSavePackage: Total save time: 56.077927ms
+[2016.11.23-17.03.23:972][762]LogSavePackage:Display: Finished SavePackage ../../../../../../BloodSport/Blood_Sport/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2016.11.23-17.03.23:978][762]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.178
+[2016.11.23-17.03.23:978][762]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2016.11.23-17.03.55:124][498]MapCheck: New page: Map Check
+[2016.11.23-17.03.55:133][498]Cmd: MAP REBUILD ALLVISIBLE
+[2016.11.23-17.03.55:133][498]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.11.23-17.03.55:144][498]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.11.23-17.03.55:144][498]LogStats:          STAT_HLOD_BuildClusters -  8.193 ms
+[2016.11.23-17.03.55:144][498]LightingResults: New page: Lighting Build - 23 Nov 2016 17:03:55
+[2016.11.23-17.03.55:182][498]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.11.23-17.03.55:183][498]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.11.23-17.03.55:183][498]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.11.23-17.03.55:183][498]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.11.23-17.03.55:183][498]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.11.23-17.03.55:183][498]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.11.23-17.03.55:702][498]LogEditorBuildUtils: Build time 0:00:00
+[2016.11.23-17.03.56:756][582]Job is a success!
+[2016.11.23-17.03.56:839][583]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.11.23-17.03.56:839][583]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.11.23-17.03.56:840][583]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.11.23-17.03.56:842][583]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.11.23-17.03.56:863][583]Lightmass on DESKTOP-T7QNFRT: 719 ms total, 73 ms importing, 0 ms setup, 272 ms photons, 343 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.24 sec total, 42 ms processing.
+[2016.11.23-17.03.56:870][583]LogStaticLightingSystem: Illumination: 1.71 sec (7 ms encoding lightmaps)
+[2016.11.23-17.03.56:870][583]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.11.23-17.03.56:870][583]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.11.23-17.03.57:202][584]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.11.23-17.03.57:203][584]MapCheck: New page: Untitled_1 - 23 Nov 2016 17:03:57
+[2016.11.23-17.03.57:276][584]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.772ms to complete.
+[2016.11.23-17.03.59:102][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.23-17.03.59:102][799]PIE: New page: PIE session: Untitled_1 (23 Nov 2016 17:03:59)
+[2016.11.23-17.03.59:102][799]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.11.23-17.03.59:129][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027183s)
+[2016.11.23-17.03.59:130][799]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.23-17.03.59:130][799]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2016.11.23-17.03.59:130][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.027936s)
+[2016.11.23-17.03.59:141][799]LogInit: XAudio2 using 'Speakers (Turtle Beach Shadow)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.23-17.03.59:147][799]LogInit: FAudioDevice initialized.
+[2016.11.23-17.03.59:178][799]LogWorld: Game class is 'GameMode'
+[2016.11.23-17.03.59:180][799]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2016.11.23-17.03.59
+[2016.11.23-17.03.59:180][799]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.23-17.03.59:180][799]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.11.23-17.03.59:332][799]LogWorld: Bringing up level for play took: 0.152239
+[2016.11.23-17.03.59:332][799]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.11.23-17.03.59:334][799]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.132
+[2016.11.23-17.04.01:098][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A209D244A0
+[2016.11.23-17.05.14:045][712]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.11.23-17.05.14:867][810]Cmd: DELETE
+[2016.11.23-17.05.14:867][810]Cmd: ACTOR DELETE
+[2016.11.23-17.05.14:868][810]LogEditorActor: Deleted Actor: CameraActor
+[2016.11.23-17.05.14:901][810]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2016.11.23-17.05.15:783][915]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2016.11.23-17.05.16:337][977]Cmd: DELETE
+[2016.11.23-17.05.16:337][977]Cmd: ACTOR DELETE
+[2016.11.23-17.05.16:338][977]LogEditorActor: Deleted Actor: Character
+[2016.11.23-17.05.16:347][977]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.23-17.05.17:288][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.23-17.05.20:794][506]Cmd: DELETE
+[2016.11.23-17.05.20:794][506]Cmd: ACTOR DELETE
+[2016.11.23-17.05.20:794][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.23-17.05.20:802][506]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.23-17.05.21:618][604]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.11.23-17.05.22:068][656]Cmd: DELETE
+[2016.11.23-17.05.22:068][656]Cmd: ACTOR DELETE
+[2016.11.23-17.05.22:069][656]LogEditorActor: Deleted Actor: SkyLight
+[2016.11.23-17.05.22:077][656]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.23-17.05.43:296][200]LogEditorViewport: Clicking Background
+[2016.11.23-17.05.46:938][635]LogEditorViewport: Clicking Background
+[2016.11.23-17.07.36:994][731]LogGameProjectGeneration:Verbose: 'C:/Program Files/Epic Games/4.10/Templates/TP_TopDownBP/Media/TP_TopDownBP.png': Skipping as it is in an ignored folder 'Media'
+[2016.11.23-17.07.36:994][731]LogGameProjectGeneration:Verbose: 'C:/Program Files/Epic Games/4.10/Templates/TP_TopDownBP/Media/TP_TopDownBP_Preview.png': Skipping as it is in an ignored folder 'Media'
+[2016.11.23-17.07.39:179][732]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.11.23-17.07.39:226][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.11.23-17.07.41:601][732]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.23-17.07.41:852][733]Cmd: QUIT_EDITOR
+[2016.11.23-17.07.42:585][733]LogExit: Preparing to exit.
+[2016.11.23-17.07.43:153][733]LogExit: Editor shut down
+[2016.11.23-17.07.43:153][733]LogExit: Transaction tracking system shut down
+[2016.11.23-17.07.43:205][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A20B246AC0
+[2016.11.23-17.07.43:205][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A217EA9DA0
+[2016.11.23-17.07.43:205][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A230BC1300
+[2016.11.23-17.07.43:205][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A2353DC5E0
+[2016.11.23-17.07.43:973][733]LogExit: Object subsystem successfully closed.
+[2016.11.23-17.07.44:277][733]LogD3D11RHI: Shutdown
+[2016.11.23-17.07.44:277][733]LogD3D11RHI: CleanupD3DDevice
+[2016.11.23-17.07.44:455][733]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (199)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.11.23-17.07.44:762][733]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.11.23-17.07.44:763][733]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.11.23-17.07.44:763][733]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.11.23-17.07.44:763][733]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.11.23-17.07.44:763][733]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.11.23-17.07.44:763][733]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.11.23-17.07.44:764][733]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.11.23-17.07.45:105][733]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.11.23-17.07.45:106][733]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.11.23-17.07.45:130][733]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.11.23-17.07.45:130][733]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.11.23-17.07.45:130][733]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.11.23-17.07.45:130][733]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.11.23-17.07.45:130][733]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.11.23-17.07.45:131][733]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.11.23-17.07.45:155][733]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.11.23-17.07.45:247][733]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.11.23-17.07.45:247][733]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.11.23-17.07.45:257][733]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.11.23-17.07.45:257][733]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.11.23-17.07.45:281][733]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.11.23-17.07.45:308][733]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.11.23-17.07.45:308][733]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.11.23-17.07.45:308][733]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.11.23-17.07.45:336][733]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.11.23-17.07.45:367][733]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.11.23-17.07.45:367][733]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.11.23-17.07.45:367][733]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.11.23-17.07.45:367][733]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.11.23-17.07.45:405][733]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.11.23-17.07.45:486][733]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.11.23-17.07.45:486][733]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.11.23-17.07.45:510][733]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.11.23-17.07.45:510][733]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.11.23-17.07.45:522][733]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.11.23-17.07.45:522][733]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.11.23-17.07.45:522][733]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.11.23-17.07.45:522][733]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.11.23-17.07.45:523][733]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.11.23-17.07.45:523][733]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.11.23-17.07.45:523][733]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.11.23-17.07.45:524][733]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.11.23-17.07.45:718][733]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.11.23-17.07.45:718][733]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.11.23-17.07.45:783][733]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.11.23-17.07.45:884][733]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.11.23-17.07.45:884][733]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.11.23-17.07.46:036][733]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.11.23-17.07.46:038][733]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.11.23-17.07.46:039][733]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.11.23-17.07.46:088][733]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.11.23-17.07.46:090][733]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.11.23-17.07.46:111][733]LogDerivedDataCache: Shutdown
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.23-17.07.46:111][733]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.23-17.07.47:113][733]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.23-17.07.47:113][733]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.23-17.07.47:139][733]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.23-17.07.47:139][733]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.23-17.07.47:139][733]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.23-17.07.47:139][733]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.23-17.07.47:139][733]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.23-17.07.47:143][733]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.23-17.07.47:143][733]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.23-17.07.47:143][733]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.23-17.07.47:143][733]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.23-17.07.47:143][733]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.23-17.07.47:144][733]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.23-17.07.47:144][733]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.23-17.07.47:144][733]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.23-17.07.47:144][733]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.23-17.07.47:144][733]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.23-17.07.47:146][733]LogExit: Exiting.
+[2016.11.23-17.07.47:156][733]Log file closed, 11/23/16 17:07:47
